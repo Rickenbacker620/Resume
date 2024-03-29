@@ -41,7 +41,7 @@
 #resume_section("Professional Experience")
 
 #resume_item(
-  "National Supercomputing Center in Wuxi, China",
+  "National Supercomputing Center",
   "Intern",
   "Wuxi, Jiangsu",
   "2023.2 -- 2023.5"
@@ -50,7 +50,7 @@
 #resume_desc("Achievements", "Ported deep learning algorithms on Shenwei CPUs based on the OneDNN framework.")
 
 #resume_item(
-  "Shanghai Hehe Information Technology Co., Ltd., China",
+  "Intsig Information Technology Co., Ltd., China",
   "Intern",
   "Shanghai",
   "2022.12 -- 2023.1"
