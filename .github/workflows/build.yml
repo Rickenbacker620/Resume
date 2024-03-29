@@ -28,7 +28,7 @@ jobs:
             draft: false
             prerelease: false
             files: |
-              Resume_CN.pdf
+              Resume_ZH.pdf
               Resume_EN.pdf
 
 
