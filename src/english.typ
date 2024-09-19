@@ -109,7 +109,7 @@
   "NLP Data Annotation Platform",
   "Project Leader",
   "https://github.com/Rickenbacker620/SoftwareVulnerabilityPlatform",
-  "Typescript, Python, PostgreSQL",
+  "Typescript, Python, PostgreSQL, Github Actions",
 )
 
 #resume_desc(
@@ -162,9 +162,9 @@
 )
 #resume_desc(
 "Technologies & Tools",
-"Web Development, Microcontroller Development, Computer Vision, Linux, CMake, Git, ZeroMQ"
+"Web Development, Microcontroller Development, Computer Vision, Linux, CMake, Git, Github Actions"
 )
 #resume_desc(
 "Concepts",
-"SLAM, Autonomous Driving, Music Theory, NLP, Deep Learning"
+"SLAM, Autonomous Driving, Music Theory, NLP, Deep Learning, DevOps"
 )
