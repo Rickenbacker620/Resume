@@ -46,8 +46,8 @@
   "Wuxi, Jiangsu",
   "2023.2 -- 2023.5"
 )
-#resume_desc("Responsibilities", "Implemented operators on supercomputers using OneDNN deep learning framework under OneAPI.")
-#resume_desc("Achievements", "Ported deep learning algorithms on Shenwei CPUs based on the OneDNN framework.")
+#resume_desc("Responsibilities", "Contributed to the initial phase of implementing OneDNN deep learning framework on Shenwei supercomputers under OneAPI. Collaborated on adapting OneDNN for Shenwei architecture, similar to Fujitsu's approach with AArch64.")
+#resume_desc("Achievements", "Played a key role in laying the groundwork for porting deep learning algorithms to Shenwei CPUs using the OneDNN framework. ")
 
 #resume_item(
   "Intsig Information Technology Co., Ltd., China",
@@ -55,16 +55,46 @@
   "Shanghai",
   "2022.12 -- 2023.1"
 )
-#resume_desc("Responsibilities", "Contributed to the development of a data OCR recognition system.")
-#resume_desc("Achievements", "Collaborated with platform developers and designers to improve the OCR recognition system, fixing numerous bugs.")
+#resume_desc("Responsibilities", "Contributed to the frontend development of an internal OCR system. Worked closely with the development team to implement user interface components and features.")
+#resume_desc("Achievements", "Collaborated with backend developers to ensure seamless integration of frontend components with OCR functionality. Contributed to multiple bug fixes in the system's user interface.")
 
 #resume_section("Projects")
+
+#resume_item(
+"NeoNeo Translator",
+"Project Creator, Developer",
+"https://github.com/Rickenbacker620/NeoNeo",
+"C++, Electron, DLL Injection, Transformer"
+)
+#resume_desc(
+"Project Description",
+"A hook system for visual novels consisting of three parts: 1) A DLL injected into the target application to hook functions and extract text, using ZeroMQ for output. 2) An Electron-based frontend that listens to the DLL output and interacts with the injected DLL. 3) A translation and text-to-speech component utilizing GPT-SoVITS for TTS and SakuraLLM for translation."
+)
+#resume_desc(
+"Roles",
+"Designed and implemented the overall system architecture. Developed the DLL for function hooking and text extraction. Created the Electron-based frontend for user interaction. Integrated GPT-SoVITS and SakuraLLM for TTS and translation functionalities. Managed the entire project development cycle."
+)
+
+#resume_item(
+"Tonegu",
+"Project Creator, Developer",
+"https://github.com/Rickenbacker620/tonegu",
+"TypeScript, Music Theory, Node.js"
+)
+#resume_desc(
+"Project Description",
+"A TypeScript-based tool for music theory calculations. Tonegu provides functionalities to calculate the notes in a given chord, determine possible chords from a set of notes, and perform calculations related to musical modes and scales. It serves as a comprehensive utility for musicians and music theorists to analyze and understand chord structures and scale relationships."
+)
+#resume_desc(
+"Roles",
+"Conceptualized and developed the entire project. Implemented algorithms for chord analysis, including note-to-chord and chord-to-note calculations. Created functions for working with various musical modes and scales. Designed and coded the core logic for music theory computations in TypeScript."
+)
 
 #resume_item(
   "Autonomous Driving Robot based on ROS",
   "Project Leader, Main Contributor",
   "https://github.com/Rickenbacker620/AutoPilotRos",
-  "C++, Python, ROS, SLAM"
+  "C++, Python, ROS, SLAM, Linux"
 )
 #resume_desc(
   "Project Description",
@@ -79,7 +109,7 @@
   "NLP Data Annotation Platform",
   "Project Leader",
   "https://github.com/Rickenbacker620/SoftwareVulnerabilityPlatform",
-  "Typescript Python PostgreSQL",
+  "Typescript, Python, PostgreSQL",
 )
 
 #resume_desc(
@@ -92,33 +122,29 @@
   "Led the overall design and development of the project, developed front-end pages, designed and developed back-end APIs, and maintained the database. Improved the interaction logic of text annotation by using keyboard input instead of mouse input, coupled with paragraph segmentation, enhancing the efficiency and accuracy of annotation compared to traditional NLP annotation tools."
 )
 
+
 #resume_section("Competitions and Awards")
 
 #resume_desc(
   "Blue Bridge Cup Programming Competition (C++ Group)",
   "Third Prize, Jiangsu Province"
 )
-
 #resume_desc(
   "Blue Bridge Cup Programming Competition (Python Group)",
   "Third Prize, Jiangsu Province"
 )
-
 #resume_desc(
   "China Undergraduate Computer Design Contest",
   "Third Prize, National Level"
 )
-
 #resume_desc(
   "Microsoft Student Ambassador",
   "Alpha Milestone"
 )
-
 #resume_desc(
   "President's Scholarship, Yangzhou University",
   "Second Class Scholarship"
 )
-
 #resume_desc(
   "Patent: Method and System for Vulnerability Event Extraction Based on BERT Question-Answering Model",
   "Patent Number: 202210519629.1"
@@ -127,10 +153,18 @@
 #resume_section("Technical Skills")
 
 #resume_desc(
-  "Programming Languages",
-  "JavaScript, Python, C++, Shell"
+"Programming Languages",
+"JavaScript, TypeScript, Python, C++, Shell"
 )
 #resume_desc(
-  "Tech Stack",
-  "Web development, Microcontroller development, Computer Vision"
+"Frameworks & Libraries",
+"React, Node.js, Electron, ROS, OneDNN"
+)
+#resume_desc(
+"Technologies & Tools",
+"Web Development, Microcontroller Development, Computer Vision, Linux, CMake, Git, ZeroMQ"
+)
+#resume_desc(
+"Concepts",
+"SLAM, Autonomous Driving, Music Theory, NLP, Deep Learning"
 )
